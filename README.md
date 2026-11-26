@@ -36,7 +36,7 @@ The artwork illustrates proposed installations, not manufactured products. QR co
 | Public website | Council management |
 | --- | --- |
 | Responsive homepage and product information | Interactive OpenStreetMap street map with fictional bin markers |
-| Two-step QR-first reporting, camera and photo scanning | Searchable bin inventory and individual bin details |
+| Two-step QR-first reporting, camera scanning | Searchable bin inventory and individual bin details |
 | Bin-specific QR codes and direct reporting links | Report status management and collection actions |
 | Mobile-friendly navigation | Analytics, CSV exports and simulated sensor updates |
 
@@ -44,7 +44,7 @@ The artwork illustrates proposed installations, not manufactured products. QR co
 
 ## QR reporting
 
-Open the council portal, select a bin on the map and choose **View QR code**. Scan that code with a phone camera or use the website scanner. Each code opens the correct bin automatically; choose an issue and submit. Use a saved QR photo or select an example bin if a camera is unavailable.
+Open the council portal, select a bin on the map and choose **View QR code**. Scan that code with a phone camera or use the website scanner. Each code opens the correct bin automatically; choose an issue and submit. Select an example bin if a camera is unavailable.
 
 ## Run locally
 
@@ -95,7 +95,7 @@ BinLink/
 
 ## Prototype limitations
 
-All operational data is fictional. Reports and changes are stored locally in the browser where supported. There is no backend, real authentication, live sensor connection, verified real-world bin locations or council integration. Do not submit real personal information. The removed top demonstration banner remains removed. Map tiles are provided by OpenStreetMap, with attribution; example marker locations are fictional. Camera scanning requires HTTPS (or localhost), permission and browser support. Standard phone-camera QR links and example-bin selection remain available. Images scanned in the browser are not uploaded.
+All operational data is fictional. Reports and changes are stored locally in the browser where supported. There is no backend, real authentication, live sensor connection, verified real-world bin locations or council integration. Do not submit real personal information. The removed top demonstration banner remains removed. Map tiles are provided by OpenStreetMap, with attribution; example marker locations are fictional. Camera scanning requires HTTPS (or localhost), permission and browser support. Standard phone-camera QR links and example-bin selection remain available. Camera frames are processed locally in the browser.
 
 ## Brand
 
